@@ -9,38 +9,30 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "dropdowns": [
       {
-        "tab": "Guides",
+        "dropdown": "Home",
+        "description": "Click here to see our projects!",
+        "icon": "house-chimney",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Homebase",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "home",
+              "staff"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "dropdown": "Ima Sugu Onii-chan ni Imouto da tte Iitai!",
+        "icon": "venus",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Frisay Project 1",
             "pages": [
-              "api-reference/introduction"
+              "Imaimo/introduction",
+              "Imaimo/downloadinfo"
             ]
           },
           {
@@ -53,24 +45,55 @@
             ]
           }
         ]
+      },
+      {
+        "dropdown": "H2O √ after and another Complete Story Edition",
+        "icon": "droplet",
+        "groups": [
+          {
+            "group": "API Documentation",
+            "pages": [
+              "H2O/introduction"
+            ]
+          },
+          {
+            "group": "Endpoint Examples",
+            "pages": [
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
+            ]
+          }
+        ]
+      },
+      {
+        "dropdown": "Ushinawareta Mirai o Motomete",
+        "icon": "clock",
+        "groups": [
+          {
+            "group": "Frisay Project 3",
+            "pages": [
+              "Waremete/introduction",
+              "Waremete/downloadinfo",
+              "Waremete/troubleshooting",
+              "Waremete/changelog"
+            ]
+          }
+        ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
+          "anchor": "Discord Community",
           "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "icon": "discord"
         },
         {
-          "anchor": "Blog",
+          "anchor": "VNDB Page",
           "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "icon": "v"
         }
       ]
     }
@@ -82,21 +105,16 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "yuuurrr",
         "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Placeholder",
       "href": "https://dashboard.mintlify.com"
     }
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }
