@@ -1,0 +1,50 @@
+---
+title: 'Troubleshooting'
+description: 'Pain.'
+icon: 'user-helmet-safety'
+---
+
+<Warning>
+  **Under Construction!**
+</Warning>
+
+## Video Troubleshooting
+
+Before we make an attempt at fixing these issues, please verify how the video plays by seeing the playback behavior right after the first scene, where the background image is greyscale, and before the date card that says “July 3”.
+
+**The minor issue:** If playback does not occur, as in video just skips and goes into the next scene, install [K-Lite Codec Pack](https://codecguide.com/download_kl.htm). You should only need the “Basic” version.
+
+**The MAJOR issue:** Some computers may have problems with video playback where the audio will play but the screen will remain black.  
+This is an underlying issue with older titles that play directly off of hardware (in this case, Nvidia GPUs) rather than through middleware. At some point, the drivers for Nvidia GPUs royally borked the bundled video decoders for very small cases such as this.
+
+If this is an issue you are experiencing, a workaround is available if your computer's processor has integrated graphics.
+
+Please refer to the instructions below.
+
+<Warning>
+  **Images currently missing!**
+</Warning>
+
+<Steps titleSize="h3">
+  <Step title="Open the &quot;Settings&quot; app">
+  </Step>
+  <Step title="Select the &quot;System&quot; tab on the sidebar">
+  </Step>
+  <Step title="Select the &quot;Display&quot; button">
+  </Step>
+  <Step title="Select the &quot;Graphics&quot; button">
+  </Step>
+  <Step title="Under &quot;Add an app&quot;, select &quot;Browse&quot;">
+    Look for &quot;BGI.exe&quot; in your installation.
+  </Step>
+  <Step title="Look for &quot;Ethornell [...]&quot;">
+    Select it, then select &quot;Options&quot;.
+  </Step>
+  <Step title="Tick &quot;Power Saving&quot;, then select &quot;Save&quot;">
+    This will force the H2O to run under your computer's integrated graphics.
+  </Step>
+</Steps>
+
+
+
+

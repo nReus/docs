@@ -3,9 +3,12 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#94CEC7",
+    "light": "#94CEC7",
+    "dark": "#47b5a7"
+  },
+  "background": {
+    "decoration": "windows"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -19,7 +22,8 @@
             "group": "Homebase",
             "pages": [
               "home",
-              "staff"
+              "staff",
+              "disclaimer"
             ]
           }
         ]
@@ -31,17 +35,10 @@
           {
             "group": "Frisay Project 1",
             "pages": [
-              "Imaimo/introduction",
-              "Imaimo/downloadinfo"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "imaimo/about",
+              "imaimo/downloadinfo",
+              "imaimo/troubleshooting",
+              "imaimo/changelog"
             ]
           }
         ]
@@ -51,18 +48,12 @@
         "icon": "droplet",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Frisay Project 2",
             "pages": [
-              "H2O/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "H2O/about",
+              "H2O/downloadinfo",
+              "H2O/troubleshooting",
+              "H2O/changelog"
             ]
           }
         ]
@@ -74,10 +65,16 @@
           {
             "group": "Frisay Project 3",
             "pages": [
-              "Waremete/introduction",
-              "Waremete/downloadinfo",
-              "Waremete/troubleshooting",
-              "Waremete/changelog"
+              "waremete/about",
+              "waremete/downloadinfo",
+              "waremete/troubleshooting",
+              "waremete/changelog"
+            ]
+          },
+          {
+            "group": "Extras",
+            "pages": [
+              "waremete/walkthrough"
             ]
           }
         ]
@@ -87,20 +84,20 @@
       "anchors": [
         {
           "anchor": "Discord Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://discord.gg/9x4TTKz5t3",
           "icon": "discord"
         },
         {
-          "anchor": "VNDB Page",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Team VNDB Page",
+          "href": "https://vndb.org/p15421",
           "icon": "v"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/FrisayFinal_wide_Light.svg",
+    "dark": "/logo/FrisayFinal_wide_Dark.svg"
   },
   "navbar": {
     "links": [
@@ -115,6 +112,11 @@
       "href": "https://dashboard.mintlify.com"
     }
   },
+  
+  "banner": {
+    "content": "Waremete English Patch v1.0 Released! [Learn more](/waremete/about)"
+  },
+  
   "footer": {
   }
 }
